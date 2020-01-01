@@ -1,0 +1,19 @@
+#config_version=5
+
+hardware:
+  platform: spike
+
+spike:
+  port: COM10
+  baud: 115200
+  debug: False
+  nodes: 0, 1, 8, 9
+  spike_version: 2
+
+config:
+- gotgproconfig.yaml
+
+playfields:
+  playfield:
+    tags: default
+    default_source_device: None
